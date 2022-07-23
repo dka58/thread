@@ -1,1 +1,11 @@
-null
+Настраиваем OutlineVPN на андроиде:
+- Скачиваешь: https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.2.6/shadowsocks--universal-v5.2.6.apk
+- Устанавливаешь shadowsocks--universal-v5.2.6.apk
+- Подписываешься в телеграме на https://t.me/OutlineVpnOfficial
+- В группе публикуют те же ключи серверов, что и на сайте https://getoutline.me/access-keys/
+- Жмешь на ссылку типа ss://Y2hhY2hhMjAtaWV.....
+- Открываешь приложение Shadowsocks на смартфоне.
+- Нажимаешь на + , далее Импортировать из буфера обмена.
+- Кликаешь на появившуюся строку с данными сервера, слева должна появиться зелёная полоска.
+- Жмёшь на перечёркнутую стрелку.
+Приложение Shadowsocks имеет ещё много разных настроек, которые ты можешь изучить сам.
