@@ -2,7 +2,7 @@
 Для линукс можно использовать это:
 https://github.com/shadowsocks/shadowsocks-qt5
 Для андроид:
-https://github.com/shadowsocks/shadowsocks-android
+https://github.com/simple-2ch/thread/blob/main/android.txt
 Нижеуказанный клиент Outline заворачивает абсолютно весь трафик, что нежелательно в большинстве ситуаций.
 
 Инструкции по настройке клиента Outline:
