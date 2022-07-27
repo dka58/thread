@@ -3,7 +3,7 @@
 https://github.com/shadowsocks/shadowsocks-qt5
 Для андроид:
 https://github.com/simple-2ch/thread/blob/main/android.txt
-Нижеуказанный клиент Outline заворачивает абсолютно весь трафик, что нежелательно в большинстве ситуаций.
+Нижеуказанный клиент Outline заворачивает абсолютно весь трафик, что нежелательно и небезопасно.
 
 Инструкции по настройке клиента Outline:
 - Скачиваешь клиент для своей ОС здесь: https://getoutline.org/ru/get-started/#step-3
