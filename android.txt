@@ -1,4 +1,4 @@
-        Настраиваем OutlineVPN на андроиде
+        Настраиваем OutlineVPN на Android
 
 - Скачиваешь: https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.2.6/shadowsocks--universal-v5.2.6.apk
 - Устанавливаешь shadowsocks--universal-v5.2.6.apk
