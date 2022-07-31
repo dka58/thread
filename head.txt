@@ -14,12 +14,14 @@
 2. Не во всех странах высокая скорость.
 
 - [b]СТОП, уже сложно. Мне только заблокированные сайты посещать надо.[/b]
-Твоя правда. Просто установи расширение Обход блокировок Рунета в свой браузер на комьютере.
+Твоя правда. Просто установи расширение Обход блокировок Рунета в свой браузер на компьютере.
 Chrome,Яндекс,Opera,Edge: https://chrome.google.com/webstore/detail/обход-блокировок-рунета/npgcnondjocldhldegnakemclmfkngch
 Firefox (разреши в приватных вкладках): https://addons.mozilla.org/ru/firefox/addon/обход-блокировок-рунета/
 Для Android/iOS установи приложение OpenVPN Connect, добавь туда файл: https://antizapret.prostovpn.org/antizapret-tcp.ovpn
 [b]ИЛИ[/b]
 Бесплатный сервис Cloudflare WARP. Скачать приложение для любой ОС здесь: https://one.one.one.one или https://1.1.1.1
+[b]ИЛИ[/b]
+GoodbyeDPI для Windows: https://github.com/simple-2ch/thread/blob/main/goodbyedpi.txt
 Ну а для тех, кому нужно больше, продолжим...
 
 [b]Инструкция по настройке OutlineVPN для крайне неуверенных пользователей ПК на шиндоус:[/b]
