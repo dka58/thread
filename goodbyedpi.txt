@@ -1,1 +1,14 @@
-null
+        Простая настройка GoodbyeDPI
+        
+- Скачиваешь: https://cdn-topersoft.nl/download/launchergdpi.php или https://topersoft.com/programs/launchergdpi
+- Извлекаешь содержимое архива в какую-нибудь папку, запускаешь Launcher for GoodbyeDPI.exe из папки x86_64.
+- Нажимаешь Быстрый шаблон настроек: 6.
+- Ставишь галочку у Обход блокировок только для доменов из списка (Blacklist).
+- Кликаешь Запустить обход блокировок.
+- Отписываешься в тред, если не работает. Ваше мнение очень важно для нас. [spoiler]Нет.[/spoiler]
+
+        Сложная настройка GoodbyeDPI
+        
+- Скачиваешь goodbyedpi-X.X.X.zip отсюда: https://github.com/ValdikSS/GoodbyeDPI/releases/latest
+- Извлекаешь содержимое архива в какую-нибудь папку.
+- Начинаешь пердолиться по инструкции: https://github.com/ValdikSS/GoodbyeDPI
