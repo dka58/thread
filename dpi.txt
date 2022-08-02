@@ -1,0 +1,17 @@
+        
+        Простая настройка обхода DPI
+ 
+GoodbyeDPI для Windows:
+- Скачиваешь: https://cdn-topersoft.nl/download/launchergdpi.php или https://topersoft.com/programs/launchergdpi
+- Извлекаешь куда-нибудь содержимое архива, запускаешь Launcher for GoodbyeDPI.exe из папки x86_64.
+- Нажимаешь Быстрый шаблон настроек: 6.
+- Ставишь галочку у Обход блокировок только для доменов из списка (Blacklist).
+- Кликаешь Запустить обход блокировок.
+- Отписываешься в тред, если не работает. Ваше мнение очень важно для нас. [spoiler]Не то чтобы сильно.[/spoiler]
+
+zapret для Linux: 
+- https://github.com/bol-van/zapret/blob/master/docs/quick_start.txt
+
+Посложнее хочу.
+Windows: https://github.com/ValdikSS/GoodbyeDPI
+Linux: https://github.com/bol-van/zapret
