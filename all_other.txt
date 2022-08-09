@@ -1,3 +1,4 @@
+        
         Предисловие.
 Для Linux лучше использовать этот клиент:
 https://github.com/shadowsocks/shadowsocks-qt5
