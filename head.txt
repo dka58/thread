@@ -57,7 +57,7 @@ iOS/MacOS/Linux: https://github.com/simple-2ch/thread/blob/main/all_other.txt
 За анонимностью в Тор. Даже [s]свой[/s] арендованный хостинг её не обеспечивает.
 
 - [b]Всё равно хочу свой VPN с блэкджеком, шлюхами, шифрованием и созданием в два клика мышкой.[/b]
-https://github.com/simple-2ch/thread/blob/main/deploy.txt
+Простая инструкция без пердольства: https://github.com/simple-2ch/thread/blob/main/deploy.txt
 
 [b]Ещё больше сервисов VPN и VPS (обновляется усилиями анонов):[/b]
 https://github.com/simple-2ch/thread/blob/main/alternatives.txt
