@@ -5,14 +5,15 @@ apt update -y
 apt install -y shadowsocks-libev
 systemctl stop ss-v2ray.service
 systemctl stop shadowsocks-libev
+systemctl disable ss-v2ray.service
 fuser -k 80/tcp
 mkdir /tmp/sstmp
 wget -O /tmp/sstmp/v2ray-plugin-linux-amd64-v1.3.1.tar.gz https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.3.1/v2ray-plugin-linux-amd64-v1.3.1.tar.gz
 tar -xvf /tmp/sstmp/v2ray-plugin-linux-amd64-v1.3.1.tar.gz -C /tmp/sstmp
 install -m 755 /tmp/sstmp/v2ray-plugin_linux_amd64 /usr/bin/v2ray-plugin
-rm -f -r /tmp/sstmp
-PASSWORD=$(cat /proc/sys/kernel/random/uuid)
+rm -rf /tmp/sstmp
 IPADDR=$(ip addr show |grep 'inet '|grep -v 127.0.0.1 |awk '{print $2}'| cut -d/ -f1)
+PASSWORD=$(cat /proc/sys/kernel/random/uuid)
 ENCRYPTION=xchacha20-ietf-poly1305
 rm -f /etc/shadowsocks-libev/config.json
 cat << EOF > /etc/shadowsocks-libev/config.json
@@ -34,7 +35,7 @@ EOF
 rm -f /etc/systemd/system/ss-v2ray.service
 cat << EOF > /etc/systemd/system/ss-v2ray.service
 [Unit]
-Description=Shadowsocks + V2RAY Service
+Description=ShadowsocksV2Ray Service
 After=network.target
 [Service]
 Type=simple
