@@ -5,7 +5,7 @@
 Chrome,Яндекс,Opera,Edge: https://chrome.google.com/webstore/detail/обход-блокировок-рунета/npgcnondjocldhldegnakemclmfkngch
 Firefox (разреши в приватных вкладках): https://addons.mozilla.org/ru/firefox/addon/обход-блокировок-рунета/
 Для Android/iOS установи приложение OpenVPN Connect, добавь туда файл: https://antizapret.prostovpn.org/antizapret-tcp.ovpn
-[b]ИЛИ[/b] Обход Deep Packet Inspection (DPI): https://github.com/simple-2ch/thread/blob/main/dpi.txt
+[b]ИЛИ[/b] Обход Deep Packet Inspection (DPI): https://github.com/simple-2ch/thread/blob/main/dpi.md
 [b]ИЛИ[/b] Бесплатный сервис Cloudflare WARP. Скачать приложение для любой ОС здесь: https://one.one.one.one или https://1.1.1.1
 
 [b]- Мне не только заблокированные роскомнадзором сайты посещать надо, но и другие программы пускать через VPN.[/b]
