@@ -1,5 +1,5 @@
 
-\tab**Петуз**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Петуз**
    
 <https://2ch.hk/s>
 
