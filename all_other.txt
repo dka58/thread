@@ -1,3 +1,0 @@
-По просьбам трудящихся инструкции были упрощены. Теперь всё в перекатной шапке.
-
-https://github.com/simple-2ch/thread/blob/main/head.txt
