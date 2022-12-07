@@ -5,9 +5,9 @@ apt install -y wget tar psmisc shadowsocks-libev
 systemctl stop shadowsocks-libev
 fuser -k 8031/tcp
 mkdir /tmp/sstmp
-wget -O /tmp/sstmp/v2ray-plugin-linux-amd64-v1.3.1.tar.gz \
-https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.3.1/v2ray-plugin-linux-amd64-v1.3.1.tar.gz
-tar -xvf /tmp/sstmp/v2ray-plugin-linux-amd64-v1.3.1.tar.gz -C /tmp/sstmp
+wget -O /tmp/sstmp/v2ray-plugin-linux-amd64.tar.gz \
+https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.3.2/v2ray-plugin-linux-amd64-v1.3.2.tar.gz
+tar -xvf /tmp/sstmp/v2ray-plugin-linux-amd64.tar.gz -C /tmp/sstmp
 install -m 755 /tmp/sstmp/v2ray-plugin_linux_amd64 /usr/bin/v2ray
 rm -rf /tmp/sstmp
 IPADDR=$(ip addr show |grep 'inet '|grep -v 127.0.0.1 |awk '{print $2}'| cut -d/ -f1)
