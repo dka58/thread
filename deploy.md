@@ -13,7 +13,7 @@ VPS - это удалённый компьютер (сервер), через к
 - В строке "имя_пользователя@айпи_адрес's password:" нажимаешь левую кнопку мыши, затем правую кнопку мыши, далее Enter.
 - Появится строка типа "имя_пользователя@название_сервера:"
 - Вводишь **`sudo su`** и нажимаешь Enter. Если спросит пароль нажимаешь правую кнопку мыши, затем Enter.
-- Копируешь строку: **`bash <(wget -qO- "https://github.com/dka58/thread/blob/main/Files/Deploy.sh")`**
+- Копируешь строку: **`bash <(wget -qO- "https://github.com/dka58/thread/raw/main/Files/Deploy.sh")`**
 - В черном окне нажимаешь левую кнопку мыши, затем правую кнопку мыши, далее Enter. Ждёшь...
 - На красном фоне появится строка типа `ss://eGNoYWNoY...../?plugin=v2ray`, аккуратно выделяешь её левой кнопкой мыши.
 - Открываешь любой текстовый файл на своём компьютере, жмёшь Ctrl+V, видишь копию строки, сохраняешь. **Сервер готов.**
@@ -29,6 +29,6 @@ P.S. <br>
 Для Android устанавливаешь: https://github.com/shadowsocks/shadowsocks-android/releases/latest (shadowsocks--universal-vX.X.X.apk) и плагин https://github.com/shadowsocks/v2ray-plugin-android/releases/latest (v2ray--universal-X.X.X.apk). Далее перекидываешь свой ключ на смартфон, копируешь его. Открываешь приложение Shadowsocks, нажимаешь на + , выбираешь Импортировать из буфера обмена, кликаешь на строку сервера. Активный ключ пометится слева зелёной полоской. Нажимаешь на перечёркнутую стрелку. Приложение Shadowsocks имеет ещё много разных настроек, которые ты можешь изучить сам. Если мучает паранойя, то можешь скачать необходимые программы с официальных источников или магазинов приложений, собрав всё самостоятельно. Пароль доступа случайно генерируется ядром линукса при развёртывании. Простой доступ к ключу получаешь только при завершении создания сервера в строке на красном фоне. При его потере, легче будет повторно выполнить вышеуказанную инструкцию с генерацией нового ключа.
 
 PuTTY: https://ru.wikipedia.org/wiki/PuTTY <br>
-Скрипт: https://github.com/dka58/thread/blob/main/Files/Deploy.sh <br>
+Скрипт: https://github.com/dka58/thread/raw/main/Files/Deploy.sh <br>
 Клиент Windows: https://github.com/shadowsocks/shadowsocks-windows/releases/latest (Shadowsocks-X.X.X.X.zip) <br>
 Плагин Windows: https://github.com/shadowsocks/v2ray-plugin/releases/latest (v2ray-plugin-windows-amd64-vX.X.X.tar.gz)
