@@ -3,7 +3,7 @@
 apt update -y
 apt install -y wget tar psmisc shadowsocks-libev
 systemctl stop shadowsocks-libev
-fuser -k 8031/tcp
+fuser -k 51111/tcp
 mkdir /tmp/sstmp
 wget -O /tmp/sstmp/v2ray-plugin-linux-amd64.tar.gz \
 https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.3.2/v2ray-plugin-linux-amd64-v1.3.2.tar.gz
@@ -31,4 +31,4 @@ cat << EOF > /etc/shadowsocks-libev/config.json
 EOF
 systemctl start shadowsocks-libev
 systemctl restart shadowsocks-libev
-printf "\033[37;1;41mss://$(echo -n $ENCRYPTION:$PASSWORD | base64 -w 0)@$IPADDR:8031/?plugin=v2ray\033[0m\n"
+printf "\033[37;1;41mss://$(echo -n $ENCRYPTION:$PASSWORD | base64 -w 0)@$IPADDR:51111/?plugin=v2ray\033[0m\n"
