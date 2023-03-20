@@ -16,7 +16,7 @@ ENCRYPTION=xchacha20-ietf-poly1305
 cat << EOF > /etc/shadowsocks-libev/config.json
 {
     "server":"$IPADDR",
-    "server_port":"8031",
+    "server_port":"51111",
     "nameserver":"1.1.1.1",
     "password":"$PASSWORD",
     "timeout":60,
